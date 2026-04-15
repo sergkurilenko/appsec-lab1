@@ -1,5 +1,6 @@
 import typer
 
+# Основная функция приветствия пользователя.
 def main(
     name: str,
     lastname: str = typer.Option("", help="Фамилия пользователя."),
