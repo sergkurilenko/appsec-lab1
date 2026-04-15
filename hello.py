@@ -1,6 +1,6 @@
 import typer
 
-# Основная функция приветствия пользователя.
+# Master branch comment changed remotely.
 def main(
     name: str,
     lastname: str = typer.Option("", help="Фамилия пользователя."),
